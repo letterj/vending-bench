@@ -1,0 +1,15 @@
+services:
+  vending:
+    build: .
+    environment:
+      # Set XAI_API_KEY via:
+      # 1. Shell: export XAI_API_KEY=your-key
+      # 2. .env file: echo "XAI_API_KEY=your-key" > .env
+      # 3. Command line: XAI_API_KEY=your-key docker compose up
+      XAI_API_KEY: ${XAI_API_KEY:-}
+    volumes:
+      - ./results:/app/results
+      # Optional: mount secret file instead of env var
+      # - ./secrets/xai_api_key:/run/secrets/xai_api_key:ro
+    command: ["uv", "run", "src/vending_sim.py"]
+

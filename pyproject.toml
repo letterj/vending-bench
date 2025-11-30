@@ -1,0 +1,17 @@
+[project]
+name = "vending-bench"
+version = "0.1.0"
+description = "Experimenting with the AI VendingMachine benchmark"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.5",
+    "openai>=2.8.1",
+    "polars>=1.35.2",
+    "python-dotenv>=1.0.0",
+    "requests>=2.32.5",
+    "rich>=13.0.0",
+]
+
+[tool.uv]
+# uv will auto-create virtualenv + install
