@@ -29,48 +29,6 @@ With the **September 2025 release of Grok 4 Fast** — a cost-optimized, multimo
 Grok 4 Fast is freely available on grok.com and the mobile apps, while the xAI API offers reasoning and non-reasoning endpoints at **$0.20–$0.50 per million tokens** — making large-scale, long-horizon agent research dramatically more accessible.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MetricGrok 4 Fast PerformanceComparison to Grok 4 / OthersKey InsightsNet Worth$4,921vs. Grok 4: $4,694 (+5%)
-vs. Claude 4 Opus: $2,077
-vs. GPT-5: ~$3,200Efficiency gains allow finer pricing tweaks (e.g., real-time weather pulls via built-in search), boosting profits; survives full 365 days consistently.Units Sold4,823vs. Grok 4: 4,569 (+6%)
-vs. Claude 4 Opus: 1,412
-vs. Human: 3442M context handles extended histories without forgetting stock patterns; multimodal support could integrate sales visuals for better forecasting.Survival Days365vs. Grok 4: 324
-vs. Average AI: ~150–200Zero bankruptcies in runs; "non-reasoning" mode skips overkill CoT for routine days, while "reasoning" activates for anomalies like supply delays.Variance/IssuesMinimal (std dev: $112)vs. Grok 4: Low but higher latency
-vs. Others: High (e.g., paranoia in Claude)98% cost reduction enables 10x more runs for tuning; native tool RL prevents loops, outperforming on Pareto frontiers for speed/quality.
-Grok 4 Fast's free access on grok.com and apps democratizes testing, with xAI's API variants (reasoning/non-reasoning) at $0.20–$0.50/M tokens for scaled evals. Earlier Groks lag, but this variant shines for local/high-throughput setups.
-
 ---
 
 ## Requirements
